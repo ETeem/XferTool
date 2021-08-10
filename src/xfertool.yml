@@ -1,0 +1,11 @@
+# Path To Your Certs
+# TLS In Go Requires The FullChain, Not The cert.pem Or ca.crt
+FullChainCertPath: "/etc/letsencrypt/live/tracker.codefaction.net/fullchain.pem"
+PrivKeyCertPath: "/etc/letsencrypt/live/tracker.codefaction.net/privkey.pem"
+
+# The Default Port To Proxy To If Domain Isn't Listed
+DefaultPort: 9090
+
+# Domain To Port Mappings
+Domains:
+  tracker.codefaction.net: '9090'
